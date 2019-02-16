@@ -61,5 +61,15 @@ app.post("/api/reserve", function(req, res) {
   }
 });
 
+app.get("/api/waitlist", function(req, res) {
+  return res.json(waitlist);
+});
+
+app.post("/api/clear", function(req,res) {
+  reservations = [];
+  waitlist = [];
+})
+
+
 app.listen(PORT, function() {
 });
