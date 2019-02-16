@@ -1,0 +1,25 @@
+{
+  "name": "hot_restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zdman135/hot_restaurant.git"
+  },
+  "author": "Rich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zdman135/hot_restaurant/issues"
+  },
+  "homepage": "https://github.com/zdman135/hot_restaurant#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "engines": {
+    "node": "9.9.0"
+  }
+}
